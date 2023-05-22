@@ -15,7 +15,7 @@ class Stacks:
         return print(self.stack[-1], "\n")
 
     def isEmpty(self):
-        if self.stack == []:
+        if not self.stack:
             return True
 
     def display(self):
